@@ -1,0 +1,54 @@
+.contentContainer {
+  height: 80vh;
+  width: 90%;
+  max-height: 80vh;
+  background-color: #fff;
+  overflow: auto;
+  border-radius: 25px;
+}
+
+.studentCardRow {
+  border-bottom-style: solid;
+  border-color: #f8f9fa;
+}
+
+.containerBorders {
+  border-radius: 25px;
+}
+
+.contentContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.imgDiv {
+  border-style: solid;
+  border-color: #e1e6ea;
+  border-width: thin;
+  transform: scale(2.5);
+}
+
+.textInput {
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-radius: 0%;
+  border-color: #e1e6ea;
+  border-width: 2px;
+  font-size: 20px;
+}
+
+input.form-control:focus {
+  box-shadow: none;
+  border-color: #343a40;
+}
+
+.expand-btn:hover {
+  color: #343a40 !important;
+  cursor: pointer;
+}
+
+.studentTag {
+  background-color: #c6cacd;
+  border-radius: 2.5px;
+  font-size: 20px;
+}
